@@ -8,7 +8,6 @@ out/
 !src/main/java/leetcode/editor
 src/main/java/leetcode/editor/cn/all.json
 src/main/java/leetcode/editor/cn/translation.json
-build.gradle
 gradlew
 gradlew.bat
 settings.gradle
