@@ -50,7 +50,13 @@ class Solution {
 
     @Test
     public void usedTest() {
-        System.out.println();
+        StringBuilder sb = new StringBuilder();
+        sb.append("[");
+        for (int i = 0; i < 200; i++) {
+            sb.append(i).append(",");
+        }
+        sb.append("]");
+        System.out.println(sb.toString());
     }
 
 }
