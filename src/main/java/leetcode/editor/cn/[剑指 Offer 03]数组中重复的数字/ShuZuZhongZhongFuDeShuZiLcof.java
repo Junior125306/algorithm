@@ -1,5 +1,10 @@
 package junior.leetcode.editor.cn;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import org.junit.Test;
+import sun.java2d.pipe.SpanIterator;
+
+import java.sql.SQLOutput;
 //找出数组中重复的数字。
 //
 //
@@ -50,7 +55,7 @@ class Solution {
         int[] arr = {1, 2, 3, 0, 3, 4};
         int[] brr = {0, 1, 2, 3, 4, 5};
         Solution solution = new Solution();
-        System.out.println(solution.findRepeatNumber(arr));
+        System.out.println();
     }
 
 }
